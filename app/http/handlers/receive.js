@@ -29,7 +29,7 @@ exports = module.exports = function(linkbacks, parse, authenticate) {
 }
 
 exports['@require'] = [
-  'http://schemas.modulate.io/js/social/ILinkbackService'
+  'http://schemas.modulate.io/js/social/ILinkbackService',
   'http://i.bixbyjs.org/http/middleware/parse',
   'http://i.bixbyjs.org/http/middleware/authenticate',
 ];

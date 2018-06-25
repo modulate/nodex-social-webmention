@@ -26,8 +26,7 @@ exports['@implements'] = [
   'http://i.bixbyjs.org/http/Service',
   'http://schemas.modulate.io/js/http/WebmentionService'
 ];
-exports['@relation'] = 'webmention';
-exports['@path'] = '/webmention';
+exports['@type'] = 'webmention';
 exports['@require'] = [
   './handlers/receive'
 ];

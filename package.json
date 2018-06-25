@@ -1,0 +1,32 @@
+{
+  "name": "nodex-social-webmention",
+  "version": "0.0.0",
+  "description": "",
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./app",
+  "assembly": {
+    "namespace": "io.modulate/social/webmention",
+    "components": [
+      "http/service"
+    ]
+  },
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^4.0.1",
+    "chai": "^4.1.1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}

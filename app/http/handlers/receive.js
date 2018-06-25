@@ -10,7 +10,7 @@
 exports = module.exports = function(linkbacks, parse, authenticate) {
   
   function handle(req, res, next) {
-    linkbacks.link(req.body.source, req.body.target, function(err) {
+    linkbacks.ping(req.body.source, req.body.target, function(err) {
       // TODO: handle errors
       
       

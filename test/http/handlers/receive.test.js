@@ -92,7 +92,7 @@ describe('http/handlers/receive', function() {
         expect(response.statusCode).to.equal(202);
         expect(response.body).to.equal(undefined);
       });
-    }); // default behavior
+    }); // accepting a notification
     
   }); // handler
   
